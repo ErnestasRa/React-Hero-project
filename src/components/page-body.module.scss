@@ -22,28 +22,28 @@
         justify-content: left;
 
           & .h1Element {
-            font-size: 3rem;
-            margin-bottom: 1rem;
+            font-size: $h1-font-size;
+            margin-bottom: $h1-margin-bottom;
           }
 
           & .h2Element {
-            font-size: 1.5rem;
-            margin-bottom: 2rem;
+            font-size: $h2-font-size;
+            margin-bottom: $h2-margin-bottom;
           }
 
           & .pElement {
-            font-size: 1.2rem;
-            max-width: 50%;
+            font-size: $p-font-size;
+            max-width: $p-max-width;
           }
 
           & .aElement {
             text-decoration: none;
             display: inline-block;
             background-color: $color-primary;
-            border-radius: 4px;
-            font-size: 1.8rem;
-            padding: 0.5em 2em;
-            margin-top: 2rem;
+            border-radius: $a-border-radius;
+            font-size: $a-font-size;
+            padding: $a-padding;
+            margin-top: $a-margin-top;
             color: $color-orange;
           }
       }
