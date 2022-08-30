@@ -20,7 +20,7 @@ const PageBody:React.FC<PageBodyProps> = ({
      <body className={classes.body}>
         <section className={classes.hero}>
             <div className={classes.container}>
-                <div className="info">
+                <div>
                     <h1 className={classes.h1Element}>{h1Element}</h1>
                         <h2 className={classes.h2Element}>{h2Element}</h2>
                         <p className={classes.pElement}>{pElement}</p>

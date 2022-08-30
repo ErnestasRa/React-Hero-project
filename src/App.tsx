@@ -7,10 +7,9 @@ import PageBody from './components/page-body';
 const App:React.FC = () => {
   return(
     <PageBody  
-     h1Element='This is a title' 
-     h2Element='Lorem ipsum dolor sit amet consectetur.'
-     pElement='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem vero ratione vitae dicta explicabo
-     perferendis amet quis provident molestiae magni!'
+     h1Element='Cia yra burgeris' 
+     h2Element='Net labai skanus burgeris.'
+     pElement='Realiai, tiesa pasakius, nemeluojant, nesnekant uz akiu, tai yra pats skaniausias burgeris!'
      aElement='Click Me'
     />
   )
